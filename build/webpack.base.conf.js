@@ -45,6 +45,10 @@ module.exports = {
         exclude: /node_modules/
       },
       {
+        test: /\.less$/,
+        loader: "vue-style!css!less"
+      },
+      {
         test: /\.json$/,
         loader: 'json'
       },
