@@ -23,7 +23,7 @@
         }
     }
 </script>
-<style>
+<style lang="less">
     .fixed-bottom {
         position: fixed;
         background: #fff;
@@ -32,16 +32,20 @@
         z-index: 99;
         border-top: 1px solid #ccc;
     }
-    .fixed-bottom div {
-        display: inline-block;
-        float: left;
-        text-align: center;
+    .fixed-bottom {
+        div {
+            display: inline-block;
+            float: left;
+            text-align: center;
+        }
     }
-    .fixed-bottom a {
-        width: 100%;
-        display: inline-block;
-        font-size: 12px;
-        color: #7a7a7a;
-        line-height: 50px;
+    .fixed-bottom {
+        a {
+            width: 100%;
+            display: inline-block;
+            font-size: 12px;
+            color: #7a7a7a;
+            line-height: 50px;
+        }
     }
 </style>
