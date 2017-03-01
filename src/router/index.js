@@ -20,7 +20,7 @@ export default new VueRouter({
       component: Index
     },
     {
-      path: '/news',
+      path: '/news/:appId',
       component: News
     },
     {
