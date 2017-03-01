@@ -125,3 +125,4 @@ background: url(./../assets/img/icon.png);
 * [webpack使用优化](https://github.com/lcxfs1991/blog/issues/2)
 * [vue guide](http://vuejs-templates.github.io/webpack/)
 * [docs for vue-loader](http://vuejs.github.io/vue-loader)
+* [vue2 vue-router2 webpack](http://www.qinshenxue.com/article/20161106163608.html)
